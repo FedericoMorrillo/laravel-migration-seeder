@@ -1,0 +1,17 @@
+.container {
+    width: 80%;
+
+    .box {
+        background-color: aquamarine;
+        border-radius: .9375rem;
+        padding: .625rem;
+
+        .card {
+            width: calc(100% / 2 - 1.25rem);
+            margin: .625rem;
+            border: 1px solid black;
+            border-radius: .9375rem;
+            padding: .625rem;
+        }
+    }
+}
